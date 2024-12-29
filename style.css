@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background: yellow;
+    align-content: space-between;
+}
+.logo{
+    padding-left: 2%;
+    margin: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 2%;
+    padding-left: 50%;
+
+}
+.header ul li a{
+    text-decoration: none;
+    margin: auto 10px;
+    font-family: sans-serif;
+}
+        /* Banner */
+
+.banner{
+    background-image: url(img/header.jpg);
+    box-shadow: 100px 10px white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text{
+    padding: 15%;
+}
+.banner-text h1{
+    margin: 25px 25px 15px 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+}
+.banner-text h4{
+    margin-left: 25px;
+    padding-left: 30px;
+}
+.banner-text button{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #3298ec;
+    color: white;
+    border: 1px solid #3298ec;
+    border-radius: 5px;
+    box-shadow: 1px 20px 20px -5px rgb(255, 255, 255);
+}
+.banner-text button:hover{
+    background: #ffffff;
+    color: #3298ec;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: 2s;
+    box-shadow: rgb(0, 0, 0) -10px 10px 20px 5px;
+}
+
+                /* About Section */
+
+.about-section{
+    display: flex;
+}
+.about-img{
+    
+}
+.about-text{
+    padding-top: 50px;
+}
+.about-text h3{
+    margin: 20px;
+    font-family:cursive;
+    color: rgb(128, 128, 128);
+}
+.about-text h1{
+    font-family:cursive;
+    margin: 20px;
+}
+.about-text p{
+    margin: 20px;
+    font-family:cursive;
+}
+.about-text button{
+    background: rgb(231, 159, 17);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(231, 159, 17);
+    border-radius: 5px;
+    box-shadow: 1px 20px 20px -5px rgb(0, 0, 0);
+    margin: 20px;
+    padding: 15px 25px;
+}
+.about-text button:hover{
+    transition: 2s;
+    background: white;
+    color: rgb(231, 159, 17);
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 20px 20px -5px rgb(0, 0, 0);
+    margin: 20px;
+    padding: 15px 25px;
+}
+
+            /* Service Section */
+.service-head{
+    color: blueviolet;
+    padding-top: 100px;
+    margin: 50px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.service-head h4{
+    color: rgb(161, 161, 161);
+    text-align: center;
+    font-family:sans-serif;
+}
+.service-head h1{
+    color: blueviolet;
+    text-align: center;
+    font-family:sans-serif;
+}
+.service{
+    display: flex;
+    align-content: space-between;
+}
+.service-card{
+    margin: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 20px;
+    box-shadow: -20px 5px 30px black;
+
+}
+
+.service-card h3{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.service-card p{
+    margin: 10px;
+    padding: 10px 10px 0 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service-card button{
+    text-align: right;
+    background: rgb(99, 95, 95);
+    color: rgb(231, 159, 17);
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px 25px;
+}
+
+
+            /* Service Charge Section */
+
+.pricing-head{
+    color: rgb(43, 198, 226);
+    margin: 50px;
+    padding-top: 100px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.pricing-head h4{
+    color: rgb(193, 193, 193);
+    text-align: center;
+    font-family:sans-serif;
+}
+.pricing-head h1{
+    color: rgb(43, 198, 226);
+    text-align: center;
+    font-family:sans-serif;
+}
+.pricing{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.pricing-card{
+    text-align: center;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.pricing-card h1{
+    margin: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.pricing-card p{
+    margin: 10px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.pricing-card button{
+    margin: 10px;
+    padding: 10px 35px;
+}
+
+                /* Hire me Section  */
+
+.hire-card{
+    display: flex;
+    background: rgb(105, 90, 166);
+    color: white;
+    padding: 30px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hire-text{
+    margin: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.hire-button{
+    margin:30px;
+    padding-left: 290px;
+}
+.hire-button button{
+    padding: 15px 35px;
+    color: blueviolet;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+                /* Contact me */
+            
+.contact-head{
+    color: rgb(224, 219, 219);
+    margin: 30px;
+    padding-top: 50px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.contact-head p{
+    color: rgb(105, 90, 166);
+    text-align: center;
+    font-family:sans-serif;
+}
+.contact-head h1{
+    color: rgb(105, 90, 166);
+    text-align: center;
+    font-family:sans-serif;
+}
+
+    /* Contact form */
+
+.contact-form{
+    text-align: center;
+    margin: 20px;
+}
+.contact-form input{
+    margin-left: 10px;
+    padding: 8px 80px;
+}
+.contact-form textarea{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 35px 250px;
+}
+.contact-form button{
+    padding: 8px 80px;
+    margin-top: 10px;
+}
+.footer{
+    text-align: center;
+    background: #3298ec;
+    padding: 25px 30px;
+    
+}
+.footer h3{
+    border-bottom: 1px solid black;
+}
+

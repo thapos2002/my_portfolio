@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div h1{
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 10px 25%;
+    padding: 5px;
+    color: brown;
+}
+.sing-up{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background: rgb(8, 95, 158);
+    height: 500px;
+    width: 390px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 20px 55px black;
+}
+.sing-up h2{
+    text-align: center;
+    margin: 10px;
+    color: rgb(241, 95, 4);
+    padding-bottom: 10px;
+}
+.sing-up input{
+    margin: 10px 60px;
+    padding: 8px 50px;
+    border: 1px solid white;
+    border-radius: 5px ;
+}
+.cheekbox{
+    padding: 20px;
+    gap: 100px;
+}
+.sing-up button{
+    margin-left: 55px;
+    padding: 10px 120px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    background: rgb(220, 4, 163);
+    color: white;
+}
+.sing-up p{
+    margin: 2px 50px;
+    padding: 8px 30px;
+   
+}
+.sing-up p, a{
+   text-decoration: none;   
+}
